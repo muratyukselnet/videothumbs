@@ -6,9 +6,12 @@ to get the image link with passing video url to a single method.
  ## Covered Services ##
  1. Youtube
  2. Dailymotion
- 3. Video
+ 3. Vimeo
+
  (you can extend it to any service you want and send a pull request)
 
  ## Usage ##
 
-     <img src="<?php echo videoThumbLink::getThumbLink($videoUrl); ?>" />
+ ```
+ <img src="<?php echo videoThumbLink::getThumbLink($videoUrl); ?>" />
+ ```
